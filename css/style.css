@@ -1,3 +1,4 @@
+/* Global Selectors */
 * {
   margin: 0;
   padding: 0;
@@ -16,6 +17,24 @@ span {
   font-size: 12px;
 }
 
+button {
+  position: absolute;
+  top: 8px;
+  right: 50px;
+  padding: 15px;
+  width: 12%;
+  background-color: #B2735D;
+  color: white;
+  text-transform: uppercase;
+  font-size: 1em;
+  font-family: 'Oswald', sans-serif;
+}
+
+input {
+  margin-right: 15px;
+}
+
+/* Class Selectors */
 .logo-container {
   display: flex;
   position: relative;
@@ -55,24 +74,6 @@ span {
   padding: 1px;
 }
 
-#rss-icon {
-  margin-left: 7px;
-}
-
-#navbar {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px;
-}
-
-.heading {
-  padding: 25px;
-  position: relative;
-  margin-left: 0px;
-}
-
 .heading h1 {
   font-family: 'Oswald', sans-serif;
 }
@@ -107,6 +108,42 @@ span {
    margin-top: 30px;
  }
 
+ .heading {
+  padding: 25px;
+  position: relative;
+  margin-left: 0px;
+}
+
+.ingredients {
+  columns: 2;
+  padding: 30px;
+  padding-left: 100px;
+  background-image: url(../img/list-bg.png);
+  margin-bottom: 40px;
+  height: 240px;
+}
+
+.ingredients li {
+  display: block;
+  font-size: 20px;
+  line-height: 1.4em;
+  margin-top: 6px;
+  color: grey;
+  font-family: 'Patrick Hand', cursive;
+}
+/* ID Selectors */
+#rss-icon {
+  margin-left: 7px;
+}
+
+#navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
 #content-container {
   padding-right: 30px;
   padding-left: 30px;
@@ -122,28 +159,6 @@ span {
   padding: 15px 0px;
   color: darkslategray;
 }
-
-.ingredients {
-  background-image: url(../img/list-bg.png);
-}
-
-label {
-  display: inline-block;
-  width: 50%;
-}
-
-input {
-  display: inline-block;
-}
-
-/* .ingredients input {
-  display: block;
-  font-size: 20px;
-  line-height: 1.4em;
-  margin-top: 6px;
-  color: grey;
-  font-family: 'Patrick Hand', cursive;
-} */
 
 #author-container {
   display: flex;
@@ -168,19 +183,6 @@ input {
   left: 122px;
   color: darkslategray;
   font-size: 15px;
-}
-
-button {
-  position: absolute;
-  top: 8px;
-  right: 50px;
-  padding: 15px;
-  width: 12%;
-  background-color: #B2735D;
-  color: white;
-  text-transform: uppercase;
-  font-size: 1em;
-  font-family: 'Oswald', sans-serif;
 }
 
 #bottom-logo{
