@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style-type: none;
+}
+
+.logo-container {
+  display: flex;
+  position: relative;
+  padding: 20px;
+  width: 25%;
+}
+
+.logo-container p {
+  position: absolute;
+  top: 50px;
+  left: 70px;
+}
+
+.logo-container img {
+  margin-right: 10px;
+}
+
+.main-nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.main-nav li {
+  padding: 2px;
+}
+
+#navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid white;
+  padding: 10px;
+}
