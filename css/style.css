@@ -54,7 +54,6 @@ a {
 .heading {
   padding: 25px;
   position: relative;
-  /* margin-bottom: 20px; */
   margin-left: 0px;
 }
 
@@ -65,15 +64,35 @@ a {
 
 .heading a {
   position: absolute;
-  right: 75px;
+  right: 35px;
   bottom: 30px;
 }
 
 #content-container {
+  padding-right: 30px;
   padding-left: 30px;
   margin: 0 auto;
 }
 
 #content-container img {
-  width: 95%;
+  width: 100%;
+}
+
+#content-container p {
+  text-indent: 20px;
+  padding: 15px 0px;
+}
+
+#ingredients {
+  list-style-type: square;
+  columns: 2;
+  padding: 30px;
+  padding-left: 70px;
+  background-image: url(../img/list-bg.png);
+}
+
+#ingredients li {
+  font-size: 16px;
+  padding: 2px;
+  padding-left: 
 }
