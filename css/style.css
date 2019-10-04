@@ -23,12 +23,22 @@ span {
   width: 25%;
 }
 
+.logo-container h1 {
+  font-size: 2.3em;
+  font-family: 'Yellowtail', cursive;
+  position: absolute;
+  top: 10px;
+  left: 70px;
+}
+
 .logo-container p {
   position: absolute;
-  font-size: 12px;
+  font-size: 11px;
   text-transform: uppercase;
-  top: 50px;
-  left: 70px;
+  top: 52px;
+  left: 75px;
+  font-family: 'Oswald', sans-serif;
+  color: gray;
 }
 
 .logo-container img {
@@ -54,7 +64,6 @@ span {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 2px solid black;
   padding: 10px;
 }
 
@@ -64,16 +73,39 @@ span {
   margin-left: 0px;
 }
 
+.heading h1 {
+  font-family: 'Oswald', sans-serif;
+}
+
 .heading p {
   font-size: 12px;
   text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+  color: gray;
 }
 
 .heading a {
   position: absolute;
   right: 35px;
   bottom: 30px;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  font-size: 12px;
+  color: gray;
 }
+
+.stripes {
+  height: 15px;
+  width: 96.5%;
+  margin: 0 30px;
+  display: flex;
+  background-image: url("../img/stripes.png");
+  opacity: .5;
+ }
+
+ .bottom-strip {
+   margin-top: 30px;
+ }
 
 #content-container {
   padding-right: 30px;
@@ -88,21 +120,30 @@ span {
 #content-container p {
   text-indent: 20px;
   padding: 15px 0px;
+  color: darkslategray;
 }
 
-#ingredients {
-  list-style-type: square;
-  columns: 2;
-  padding: 30px;
-  padding-left: 100px;
+.ingredients {
   background-image: url(../img/list-bg.png);
 }
 
-#ingredients li {
-  font-size: 16px;
-  padding: 2px;
-  padding-left: 
+label {
+  display: inline-block;
+  width: 50%;
 }
+
+input {
+  display: inline-block;
+}
+
+/* .ingredients input {
+  display: block;
+  font-size: 20px;
+  line-height: 1.4em;
+  margin-top: 6px;
+  color: grey;
+  font-family: 'Patrick Hand', cursive;
+} */
 
 #author-container {
   display: flex;
@@ -117,22 +158,29 @@ span {
   margin-right: 30px;
 }
 
+#author-container {
+  color: darkslategray;
+}
+
 #author-container p {
   position: absolute;
   top: 30px;
   left: 122px;
+  color: darkslategray;
+  font-size: 15px;
 }
 
 button {
   position: absolute;
   top: 8px;
   right: 50px;
-  padding: 20px;
+  padding: 15px;
   width: 12%;
   background-color: #B2735D;
   color: white;
   text-transform: uppercase;
   font-size: 1em;
+  font-family: 'Oswald', sans-serif;
 }
 
 #bottom-logo{
@@ -159,4 +207,5 @@ button {
   display: flex;
   flex-direction: column;
   padding-bottom: 30px;
+  color: gray;
 }
