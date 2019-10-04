@@ -1,0 +1,213 @@
+/* Global Selectors */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+span {
+  font-size: 12px;
+}
+
+button {
+  position: absolute;
+  top: 8px;
+  right: 50px;
+  padding: 15px;
+  width: 12%;
+  background-color: #B2735D;
+  color: white;
+  text-transform: uppercase;
+  font-size: 1em;
+  font-family: 'Oswald', sans-serif;
+}
+
+input {
+  margin-right: 15px;
+}
+
+/* Class Selectors */
+.logo-container {
+  display: flex;
+  position: relative;
+  padding: 20px;
+  width: 25%;
+}
+
+.logo-container h1 {
+  font-size: 2.3em;
+  font-family: 'Yellowtail', cursive;
+  position: absolute;
+  top: 10px;
+  left: 70px;
+}
+
+.logo-container p {
+  position: absolute;
+  font-size: 11px;
+  text-transform: uppercase;
+  top: 52px;
+  left: 75px;
+  font-family: 'Oswald', sans-serif;
+  color: gray;
+}
+
+.logo-container img {
+  margin-right: 10px;
+}
+
+.main-nav {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 20px;  
+}
+
+.main-nav li {
+  padding: 1px;
+}
+
+.heading h1 {
+  font-family: 'Oswald', sans-serif;
+}
+
+.heading p {
+  font-size: 12px;
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+  color: gray;
+}
+
+.heading a {
+  position: absolute;
+  right: 35px;
+  bottom: 30px;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  font-size: 12px;
+  color: gray;
+}
+
+.stripes {
+  height: 15px;
+  width: 96.5%;
+  margin: 0 30px;
+  display: flex;
+  background-image: url("../img/stripes.png");
+  opacity: .5;
+ }
+
+ .bottom-strip {
+   margin-top: 30px;
+ }
+
+ .heading {
+  padding: 25px;
+  position: relative;
+  margin-left: 0px;
+}
+
+.ingredients {
+  columns: 2;
+  padding: 30px;
+  padding-left: 100px;
+  background-image: url(../img/list-bg.png);
+  margin-bottom: 40px;
+  height: 240px;
+}
+
+.ingredients li {
+  display: block;
+  font-size: 20px;
+  line-height: 1.4em;
+  margin-top: 6px;
+  color: grey;
+  font-family: 'Patrick Hand', cursive;
+}
+/* ID Selectors */
+#rss-icon {
+  margin-left: 7px;
+}
+
+#navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+#content-container {
+  padding-right: 30px;
+  padding-left: 30px;
+  margin: 0 auto;
+}
+
+#content-container img {
+  width: 100%;
+}
+
+#content-container p {
+  text-indent: 20px;
+  padding: 15px 0px;
+  color: darkslategray;
+}
+
+#author-container {
+  display: flex;
+  position: relative;
+  padding-left: 25px;
+  margin-top: 20px;
+  padding-bottom: 40px;
+  width: 100%;
+}
+
+#author-container img {
+  margin-right: 30px;
+}
+
+#author-container {
+  color: darkslategray;
+}
+
+#author-container p {
+  position: absolute;
+  top: 30px;
+  left: 122px;
+  color: darkslategray;
+  font-size: 15px;
+}
+
+#bottom-logo{
+  overflow: visible; /* For IE */
+  padding: 0;
+  margin: 0 30px;
+  border: none;
+  border-top: 1px solid #F0F0F0;
+  color: #333;
+  text-align: center;
+}
+#bottom-logo:after {
+  content: url(../img/small-logo.png);
+  display: inline-block;
+  position: relative;
+  top: -0.7em;
+  font-size: 1.5em;
+  padding: 0 0.25em;
+  background: white;
+}
+
+#copyright {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 30px;
+  color: gray;
+}
